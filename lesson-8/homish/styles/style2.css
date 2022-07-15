@@ -1,0 +1,32 @@
+h1{
+    text-align: center;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+form{
+    padding: 50px;
+    border: 10px solid rgb(255, 98, 124);
+    width: 350px;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: 10px 10px blue;
+ }
+input{
+    border-radius: 15px;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid gray;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+.kk{
+    width: 85%;
+
+}
+.chac{
+    margin-top: 20px;
+}

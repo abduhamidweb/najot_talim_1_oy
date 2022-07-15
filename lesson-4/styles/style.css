@@ -1,0 +1,29 @@
+h1 {
+    text-align: center;
+    display: inline;
+    font-size: 45px;
+}
+
+.card1 {
+    width: 400px;
+    height: 470px;
+    background: rgb(215, 213, 218);
+    display: block;
+    /* border-radius: 50%; */
+    /* overflow: hidden , scroll , auto;    hiden yashirib qo'yadi scroll avtoga uxshaydi */
+    /* overflow-y: hidden , scroll , auto; */
+    /* overflow-x: hidden , scroll , auto; */
+    /* display: block; blok qiladi yoniga joylashmaydi */
+    /* display: inline; ozini turgan joyini egallab oladi */
+    /* display: inline-block ; yoniga joylashishini oladi */
+    /* list-style-type: none; */
+}
+/* overfloff bu elemenrlarni tashqariga chiqish holatlarini boshqaradi */
+.hrerf {
+    color: rgb(30, 0, 255);
+    font-size: 45px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    background: #fff;
+}

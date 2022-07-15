@@ -1,0 +1,22 @@
+body {
+    background: black;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+.a {
+    width: 600px;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.a a {
+    color: white;
+    text-decoration: none;
+    font-size: 35px;
+}

@@ -1,0 +1,38 @@
+.container {
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    margin: auto;
+    position: relative;
+}
+
+.container input[type="checkbox"] {
+    width: 14px;
+    height: 14px;
+    display: block;
+    position: relative;
+}
+
+.container .checkmark::after {
+    content: "\263B \2600";
+    font-size: 1111px;
+    /* display: none; */
+    position: absolute;
+    left: -715px;
+    top: -100;
+    z-index: 22;
+    width: 100px;
+    height: 100px;
+    background: yellow;
+}
+
+.container input:checked~.checkmark::after {
+    content: "\2600";
+    display: block;
+    font-size: 1111px;
+
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: red;
+}

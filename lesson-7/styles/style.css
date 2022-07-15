@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.flex-container {
+    width: 100%;
+    padding: 50px 0;
+    background: lime;
+    display: flex;
+    flex-direction: row;
+    /* flex-direction: column-reverse; pastga qarab oxiridan yozadi*/
+    /* flex-direction: column; pastga qarab yonaltiradi*/
+    /* flex-direction: row-reverse; shu qatordagini teskari hollatda yozadi*/
+    /* justify-content: space-around; ikki tomonidan joy qoldiradi*/
+    justify-content: space-between;
+    /* justify-content: space-evenly; */
+    flex-wrap: wrap;
+    /* flex-wrap: nowrap; */
+    /* flex-wrap: wrap-reverse; */
+    align-items: center;
+    /* align-items: baseline; bitta qatorga tekislab beradi*/
+    /* align-items: stretch; qatorni to'ldiradi */
+    /* align-items: flex-start; boshidan*/
+    /* align-items:flex-end ; oxiridan*/
+    /* align-content: center; */
+    /* align-content:flex-end; */
+    /* align-content:flex-start; */
+    /* align-content:space-between; */
+    /* align-content:space-around;  */
+    /* align-content:stretch; */
+}
+
+.flex-container .flex-item {
+    padding: 100px;
+    background: white;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.flex-item:nth-child(1) {
+    background: rgb(113, 113, 123);
+    flex-grow: 1;
+}
+
+.flex-item:nth-child(2) {
+    background: rgb(140, 140, 171);
+    flex-grow: 2;
+    flex-basis: 400px;
+    /* order: 2; */
+}
+
+.flex-item:nth-child(3) {
+    background: rgb(132, 193, 96);
+    flex-grow: 3;
+    /* kerakli vaqt sherikaridan qancha kattarish */
+    flex-shrink: 4;
+    /* kerakli vaqt sheriklaridan qanca kichirayishi */
+}
+.img{
+    width: 600px;
+    height: 600px;
+    background-image: url('https://picsum.photos/600/555');
+    background-position: center;
+    background-size: contain;
+}

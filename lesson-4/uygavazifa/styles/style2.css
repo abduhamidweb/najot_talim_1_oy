@@ -1,0 +1,113 @@
+body {
+    background: rgb(228, 212, 215);
+
+}
+
+.main {
+    margin-top: 20px;
+    width: 505px;
+    height: 450px;
+    background: rgba(165, 42, 42, 0.71);
+    margin: auto;
+    padding: 50px 50px;
+
+
+}
+
+.box {
+    width: 500px;
+    height: 450px;
+    background: white;
+    display: flex;
+
+
+
+}
+
+.item1 {
+    width: 240px;
+    height: 100%;
+    margin: auto;
+    padding: 30px 50px;
+
+
+}
+
+.item2 {
+    width: 200px;
+    height: 100%;
+}
+
+.item1 img {
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+
+.item1 .name {
+    font-size: 35px;
+    text-align: center;
+    color: brown;
+}
+
+.item1 .value {
+    font-size: 20px;
+    margin-left: 70px;
+    color: gray;
+    margin-top: -30px;
+
+}
+
+.item1 button {
+    display: flex;
+    justify-content: center;
+    padding: 10px 100px;
+    width: 70%;
+    margin: auto;
+    border-radius: 30px;
+}
+
+.item1 .follow {
+    color: #fff;
+    background: rgba(165, 42, 42, 0.71);
+    font-size: 20px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.item1 .massag {
+    color: rgba(165, 42, 42, 0.71);
+    background: #fff;
+    font-size: 20px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.item2 {
+    background: rgba(237, 231, 222, 0.896);
+}
+
+.item2 .card {
+    width: 99%;
+    height: 30.6909999999990990%;
+    background: rgba(165, 42, 42, 0.163);
+    text-align: center;
+    align-items: center;
+    padding-top: 10px;
+    border: 1px solid #fff;
+
+}
+
+.item2 .card p {
+    font-size: 30px;
+    color: brown;
+
+}
+
+.hrerf {
+    color: brown;
+    font-size: 45px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}

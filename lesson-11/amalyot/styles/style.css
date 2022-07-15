@@ -1,0 +1,710 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f9f6f68e;
+}
+
+.container {
+    width: 1176px;
+    margin: 0 auto;
+}
+
+.btn_menu_top {
+    position: relative;
+    position: fixed;
+    top: 0;
+
+
+}
+
+.btn_menu_tops {
+    position: absolute;
+    width: 100px;
+    z-index: 99999;
+
+    height: 90px;
+    background: #232F3E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: -119px;
+
+}
+
+.headers {
+    display: flex;
+    justify-content: space-between;
+    padding: 38px 0 30px 0;
+    align-items: center;
+
+
+}
+
+.logo {
+    width: 107px;
+    height: 32px;
+    margin-right: 48px;
+}
+
+.header_left {
+    display: flex;
+    align-items: center;
+}
+
+.form {
+    width: 600px;
+    height: 48px;
+    background: rgba(242, 242, 242, 0.48);
+    align-items: center;
+    display: flex;
+    position: relative;
+}
+
+.form select {
+    padding: 17px 14px 17px 13px;
+    background: rgba(242, 242, 242, 0.48);
+    border: none;
+
+}
+
+.form select option {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.form option {
+    padding-right: 15px;
+    border: none;
+
+}
+
+.form .search {
+    padding: 17px 118px 17px 16px;
+    width: 500px;
+    background: rgba(242, 242, 242, 0.48);
+    border: none;
+    position: relative;
+
+}
+
+.form .search input::placeholder {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: rgba(35, 47, 62, 0.16);
+}
+
+.form .imgs {
+    position: absolute;
+    left: 555px;
+}
+
+.form .img {
+    height: 28px;
+    margin-left: 15px;
+    margin-right: 16px;
+}
+
+.header_right {
+    display: flex;
+    width: 382px;
+    align-items: center;
+    height: 48px;
+}
+
+.header_right .icon {
+    align-items: center;
+    position: relative;
+    margin-left: 57px;
+}
+
+
+
+.header_right .icon  .img_2 {
+   
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: -3px;
+    top: 2px;
+    z-index: -11;
+}
+
+.img_1:hover .img_2 {
+    opacity: 0;
+    display: block;
+    position: absolute;
+    opacity: 1;
+    width: 25px;
+    height: 25px;
+    left: -3px;
+    top: 2px;
+    z-index: 11;
+
+}
+
+.header_right .icon a {
+    text-decoration: none;
+    align-items: center;
+}
+
+.header_right .icon a:nth-child(2) {
+    margin-left: 38px;
+}
+
+.header_right .icon a:nth-child(3) {
+    position: relative;
+}
+
+.header_right .icon a:nth-child(3) img {
+    left: 23px;
+    right: 16px;
+    position: absolute;
+}
+
+.buttons {
+    display: flex;
+    margin-left: 46px;
+    align-items: center;
+}
+
+.buttons a {
+    text-decoration: none;
+}
+
+.buttons .lokatsa {
+    position: relative;
+    align-items: center;
+}
+
+.buttons .lokatsa a img {
+    position: absolute;
+}
+
+.buttons .lokatsa span {
+    margin-left: 23px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.buttons .button {
+    position: relative;
+}
+
+.buttons .button button {
+    position: absolute;
+    padding: 12px 32px;
+    background: #232F3E;
+    border: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+    color: #FFFFFF;
+    top: -18px;
+    left: 17px;
+}
+
+.buttons .button button a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+
+/* ========================================================================== */
+.header_hero {
+    margin-top: 30px;
+    position: relative;
+    width: 100%;
+    height: 450px;
+    background: rgba(242, 242, 242, 0.4);
+}
+
+.hero_left_or_right {
+    position: absolute;
+}
+
+.hero_left_or_right span {
+    top: 217px;
+    position: absolute;
+    z-index: 100;
+    width: 50px;
+    height: 50px;
+    background: #ffffff;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero_left_or_right span:nth-child(1) {
+    position: absolute;
+    left: -26px;
+}
+
+.hero_left_or_right span:nth-child(2) {
+    left: 1150px;
+    position: absolute;
+
+}
+
+.d-flex {
+    display: flex;
+}
+
+.header .hero_text {
+    padding: 79px 56px;
+    width: 50%;
+}
+
+.header .hero_text .hero_top_spen {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #FF9900;
+}
+
+.header .hero_text .hero_center_h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+    /* or 121% */
+
+
+    color: #000000;
+}
+
+.header .hero_text .hero_center_p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    /* or 167% */
+    width: 400px;
+    margin-top: 16px;
+
+
+    color: rgba(35, 47, 62, 0.48);
+}
+
+.header .hero_text .hero_buttons {
+    align-items: center;
+    margin-top: 16px;
+
+    text-align: left;
+}
+
+.header .hero_text .hero_buttons button {
+    padding: 9px 15px;
+    width: 124px;
+    text-align: center;
+
+}
+
+.header .hero_text .hero_buttons a {
+    text-decoration: none;
+}
+
+.header .hero_text .hero_buttons .hero_button_one {
+    background: #146EB4;
+    border: none;
+}
+
+.header .hero_text .hero_buttons .hero_button_one a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+
+.header .hero_text .hero_buttons .hero_button_twoo {
+    padding: 9px 13px;
+    background: #FFFFFF;
+    border: 1px solid #146EB4;
+}
+
+.header .hero_text .hero_buttons .hero_button_twoo a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #146EB4;
+
+}
+
+header .hero_img {
+    padding: 12px 83px 21px;
+    position: relative;
+
+}
+
+header .hero_img img {}
+
+header .hero_img .elips_1 {
+    position: absolute;
+    width: 110px;
+    height: 110px;
+    background: #ff9900c3;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    left: 365px;
+    top: 322px;
+}
+
+header .hero_img .elips_2 {
+    position: absolute;
+    width: 110px;
+    height: 110px;
+    background: #146fb4e3;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    top: 63px;
+    left: 100px;
+}
+
+main .main_top_category {
+    padding-top: 56px;
+    display: flex;
+    justify-content: space-between;
+}
+
+main .main_top_category .cate_text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #000000;
+}
+
+main .main_top_category .cate_see {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    text-align: right;
+
+    color: #146EB4;
+}
+
+main .main_categoris {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+    padding-top: 40px;
+    align-items: center;
+}
+
+main .main_categoris .box {
+    background: #d5d4d42b;
+    margin: auto;
+    width: 100px;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .main_categoris .box:hover {
+    background: #FFFFFF;
+    height: 160px;
+}
+
+main .main_categoris .box span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+
+    color: #232F3E;
+}
+
+main .cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 40px;
+    margin-bottom: 78px;
+
+}
+
+main .card {
+    width: 279px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+
+}
+
+main .card img {
+    display: block;
+    margin: auto;
+}
+
+.card_full {
+    background: rgb(246, 247, 244);
+    padding-bottom: 10px;
+    margin-top: -140px;
+    padding-top: 20px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.card_full:hover {
+    background: white;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+
+main .card .text {
+    padding-left: 16px;
+}
+
+main .card .text .grey {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    /* identical to box height, or 123% */
+
+    margin-top: 46px;
+    color: rgba(35, 47, 62, 0.48);
+}
+
+main .card .text .brend_name {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    margin-top: 8px;
+    line-height: 16px;
+    /* identical to box height, or 107% */
+
+
+    color: #000000;
+}
+
+main .card .text .price {
+    font-family: 'Roboto';
+    margin-top: 8px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    /* identical to box height, or 123% */
+
+
+    color: #146EB4;
+}
+
+main .cards .card .yulduzcha {
+    position: relative;
+    display: flex;
+    left: 175px;
+    bottom: 20px;
+}
+
+main .cards .card .yulduzcha img {
+    position: absolute;
+}
+
+main .cards .card .yulduzcha img:nth-child(2) {
+    margin-left: 16px;
+}
+
+main .cards .card .yulduzcha img:nth-child(3) {
+    margin-left: 32px;
+}
+
+main .cards .card .yulduzcha img:nth-child(4) {
+    margin-left: 48px;
+}
+
+main .cards .card .yulduzcha img:nth-child(5) {
+    margin-left: 64px;
+}
+
+.button_shop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    opacity: 0;
+}
+
+.button_shop button {
+    padding: 9px 27px;
+    top: 170px;
+    left: 11px;
+    position: absolute;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+
+.button_shop button:nth-child(1) {
+    background: #146EB4;
+    border: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+    width: 116px;
+    height: 32px;
+
+
+    color: #FFFFFF;
+}
+
+.button_shop button:nth-child(1):hover {
+    position: absolute;
+    transition: all 0.1s ease;
+    background: yellow;
+    font-family: 'Roboto';
+    font-style: normal;
+    height: 32px;
+    width: 116px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    /*identicaltoboxheight*/
+    text-align: center;
+    color: #000000;
+    border: 1px solid #eeff00;
+    -webkit-transition: all 0.1s ease;
+    -moz-transition: all 0.1s ease;
+    -ms-transition: all 0.1s ease;
+    -o-transition: all 0.1s ease;
+}
+
+.button_shop button:nth-child(2) {
+    position: absolute;
+    left: 147px;
+    background: #FFFFFF;
+    font-family: 'Roboto';
+    font-style: normal;
+    height: 32px;
+    width: 116px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #146EB4;
+    border: 1px solid #146EB4;
+
+}
+
+.button_shop button:nth-child(2):hover {
+    background: yellow;
+    transition: all 0.1s ease;
+    border: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    /*identicaltoboxheight*/
+    width: 116px;
+    height: 32px;
+    color: #000000;
+    -webkit-transition: all 0.1s ease;
+    -moz-transition: all 0.1s ease;
+    -ms-transition: all 0.1s ease;
+    -o-transition: all 0.1s ease;
+}
+
+main .cards .card:hover {
+    background: #FFFFFF;
+}
+
+main .cards .card:hover .card_full {
+    background: #FFFFFF;
+}
+
+main .cards .card:hover .button_shop {
+    opacity: 1;
+    margin: auto;
+    position: absolute;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}

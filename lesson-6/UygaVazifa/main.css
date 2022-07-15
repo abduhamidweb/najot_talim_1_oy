@@ -1,0 +1,609 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1157px;
+}
+
+header {
+    padding-top: 50px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+
+}
+
+nav ul li {
+    margin-left: 25px;
+
+}
+
+nav ul li .aktiv {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    /* identical to box height */
+
+
+    /* 1f1534-hyfen */
+
+    color: #1F1534;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    /* identical to box height */
+
+
+    /* 1f1534-hyfen */
+
+    color: #1F1534;
+
+    opacity: 0.5;
+}
+
+main .qorbobo {
+    display: flex;
+    justify-content: space-between;
+}
+
+main .qorbobo .item1 {
+    padding-top: 173px;
+}
+
+main .qorbobo .item1 h1 {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    /* or 117% */
+
+
+    color: #000000;
+
+    mix-blend-mode: normal;
+    width: 427px;
+    height: 130px;
+}
+
+main .qorbobo .item1 p {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 32px;
+    /* or 152% */
+
+
+    color: #7D7987;
+
+    mix-blend-mode: normal;
+    margin-top: 25px;
+    width: 445px;
+    height: 96px;
+}
+
+main .qorbobo .item1 button {
+    background: #458FF6;
+    border-radius: 55px;
+    border: none;
+    width: 200px;
+    height: 56px;
+    margin-top: 45px;
+}
+
+main .qorbobo .item1 button span {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+
+    /* identical to box height, or 333% */
+
+
+    color: #FFFFFF;
+
+    mix-blend-mode: normal;
+
+}
+
+main .item2 img {
+    width: 693px;
+    height: 598px;
+}
+
+main .item2 {
+    padding-top: 83px;
+}
+
+main .our_server .title h3 {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 56px;
+    /* identical to box height, or 156% */
+    text-align: center;
+
+    color: #000000;
+
+    mix-blend-mode: normal;
+}
+
+main .our_server .title img {
+    width: 56px;
+    height: 2px;
+    display: block;
+    margin: auto;
+    margin-right: 550px;
+    margin-top: 15px;
+}
+
+main .our_server .title p {
+    width: 952px;
+    height: 60px;
+    display: block;
+    margin: auto;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 167% */
+
+    text-align: center;
+
+    color: #7D7987;
+
+    mix-blend-mode: normal;
+    margin-top: 33px;
+}
+
+main .our_server_box {
+    padding-top: 78px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+main .our_server_box .box_item {
+    width: 350px;
+    height: 354px;
+    background: #FFFFFF;
+    /* drop shadow */
+
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+    border-radius: 20px;
+}
+
+main .our_server_box .box_item img {
+
+    margin-left: 37px;
+    margin-top: 40px;
+}
+
+main .our_server_box .box_item h4 {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 56px;
+    /* identical to box height, or 233% */
+
+
+    color: #000000;
+
+    mix-blend-mode: normal;
+    margin-left: 37px;
+
+}
+
+main .our_server_box .box_item p {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    /* or 175% */
+
+
+    color: #7D7987;
+
+    mix-blend-mode: normal;
+    width: 266px;
+    height: 84px;
+    margin-left: 37px;
+
+}
+
+main .our_server button {
+    display: block;
+    margin: auto;
+    border: 1.4px solid #458FF6;
+    border-radius: 55px;
+    padding: 15px 52px;
+    margin-top: 52px;
+}
+
+main .our_server button span {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    /* identical to box height, or 333% */
+
+
+    color: #458FF6;
+
+    mix-blend-mode: normal;
+}
+
+main .prodivers {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 116px;
+}
+
+main .prodivers .card1 img {
+    width: 650px;
+    height: 477px;
+}
+
+main .prodivers .card2 {
+    padding-top: 40px;
+}
+
+main .prodivers .card2 h2 {
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 56px;
+    /* or 156% */
+
+
+    color: #000000;
+
+    mix-blend-mode: normal;
+}
+
+main .prodivers .card2 p {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 167% */
+
+
+    color: #7D7987;
+
+    mix-blend-mode: normal;
+}
+
+main .prodivers .card2 button {
+    border: 1.4px solid #458FF6;
+    border-radius: 55px;
+    padding: 15px 52px;
+    background: transparent;
+}
+
+main .prodivers .card2 button span {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    /* identical to box height, or 333% */
+
+
+    color: #458FF6;
+
+    mix-blend-mode: normal;
+}
+
+main .customer {
+    width: 100%;
+    height: 425px;
+    background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+    border-radius: 24px;
+    padding-top: 71px;
+    margin-top: 269px;
+}
+
+main .customer .title {
+    text-align: center;
+}
+
+main .customer .title h2 {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    /* identical to box height, or 133% */
+
+
+    color: #FFFFFF;
+
+    mix-blend-mode: normal;
+}
+
+main .customer .profil {
+    display: flex;
+    justify-content: space-between;
+}
+
+main .customer .profil .cards {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+main .customer .profil .cards img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 37px;
+}
+
+main .customer .profil .cards h3 {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 48px;
+    /* identical to box height, or 218% */
+    margin-top: 42px;
+    margin-left: 20px;
+
+    color: #FFFFFF;
+
+    mix-blend-mode: normal;
+}
+
+main .customer .profil .cards span {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    padding-left: 22px;
+    /* identical to box height, or 267% */
+
+
+    color: rgba(255, 255, 255, 0.85);
+
+    mix-blend-mode: normal;
+}
+
+main .customer .profil .cards p {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 30px;
+    padding-left: 30px;
+    padding-right: 145px;
+    padding-top: 44px;
+    /* or 158% */
+
+
+    color: rgba(255, 255, 255, 0.9);
+
+    mix-blend-mode: normal;
+}
+
+main .profil_bottom {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    height: 80px;
+    margin: auto;
+    align-items: center;
+}
+
+main .check_out {
+    margin-top: 187px;
+}
+
+main .check_out .portfol {
+    justify-content: space-between;
+    display: flex;
+}
+
+main .check_out h2 {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    /* identical to box height, or 156% */
+
+
+    color: #000000;
+
+    mix-blend-mode: normal;
+}
+
+main .check_out .item_port {
+    margin-top: 72px;
+    width: 350px;
+    border-radius: 25px;
+    padding-bottom: 20px;
+    -webkit-box-shadow: 1px 3px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 1px 3px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 1px 3px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+main .check_out .item_port img {
+    -webkit-border-top-left-radius: 25px;
+    -webkit-border-top-right-radius: 25px;
+    -moz-border-radius-topleft: 25px;
+    -moz-border-radius-topright: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+main .check_out .item_port h3 {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    padding: 21px 66px 7px 33px;
+    /* or 152% */
+
+
+    color: #000000;
+
+    mix-blend-mode: normal;
+}
+
+main .check_out .item_port p {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    padding: 0 51px 5px 33px;
+    /* or 175% */
+
+
+    color: #7D7987;
+
+    mix-blend-mode: normal;
+}
+
+main .check_out .item_port span {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    /* identical to box height, or 165% */
+
+
+    color: #4089ED;
+
+    mix-blend-mode: normal;
+    padding-left: 33px;
+}
+
+main .check_bottom {
+    display: block;
+    text-align: center;
+    margin-top: 72px;
+    margin-bottom: 202px;
+}
+
+main .check_bottom button {
+    text-align: center;
+    padding: 15px 52px;
+    border: 1.4px solid #458FF6;
+    border-radius: 55px;
+    background: transparent;
+}
+
+main .check_bottom button span {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    /* identical to box height, or 333% */
+
+
+    color: #458FF6;
+
+    mix-blend-mode: normal;
+}
+
+footer .foter_menu {
+    width: 100%;
+    height: 300px;
+    background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+    padding-top: 70px;
+}
+
+footer .foter_menu .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+footer .foter_menu .row .col_1 p {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    width: 390px;
+    /* or 156% */
+
+
+    color: #FFFFFF;
+
+    mix-blend-mode: normal;
+}
+
+footer .foter_menu .row .col_1 span {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    /* identical to box height, or 175% */
+
+
+    color: #FFFFFF;
+
+    mix-blend-mode: normal;
+}
+
+footer .foter_menu .row .col h4 {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 60px;
+    /* identical to box height, or 300% */
+
+
+    color: #FFFFFF;
+
+    mix-blend-mode: normal;
+}
+
+footer .foter_menu .row .col span {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 38px;
+    /* or 211% */
+
+
+    color: #FFFFFF;
+
+    mix-blend-mode: normal;
+}

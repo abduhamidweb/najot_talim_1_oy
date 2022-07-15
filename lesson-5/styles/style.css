@@ -1,0 +1,71 @@
+*{
+    margin: 0;padding: 0;
+    
+}
+@font-face {
+    font-family: "multi";
+    src: url(../fonts/orange\ juice\ 2.0.ttf);
+}
+@font-face {
+    font-family: "liol";
+    src: url(../fonts/PlayfairDisplay-Bold.ttf);
+}
+header{
+    width: 100%;
+    background: black;
+    color: #fff;
+    height: 40px;
+    text-align: center;
+    padding-top: 12px;
+    text-transform: uppercase;
+    font-family: 'multi';
+}
+.navbar{
+    background: rgb(201, 198, 198);
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+
+}
+.main{
+    display: flex;
+  
+}
+section{
+    width: 60%;
+    background: silver;
+    height: 100%;
+    display: inline-block;
+
+}
+article{
+    background: silver;
+    margin: 5px;
+    padding: 7px 10px;
+}
+aside{
+    background: rgb(155, 152, 152);
+    display: inline-block;
+    width: 40%;
+    padding: 8px;
+    height: 100%;
+    color: #fff;
+}
+ul{
+    list-style-type: none;
+    padding-top: 2px;
+}
+ul h1{
+    text-align: center;
+}
+ul li{
+    text-align: center;
+}
+.footer{
+    background: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    height: 60px;
+}

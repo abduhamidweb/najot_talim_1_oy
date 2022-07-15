@@ -1,0 +1,45 @@
+.title {
+    text-align: center;
+    color: red;
+    font-size: 45px;
+    border-top-style: dotted;
+    border-right-style: solid;
+    border-bottom-style: dotted;
+    border-left-style: solid;
+    border-width: 5px;
+    text-align: left;
+}
+
+.text {
+    font-size: 30px;
+    color: black;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    font-style: italic;
+    /* text-decoration: overline underline line-through; */
+    text-indent: 20px;
+    color: chocolate;
+    /* text-transform: uppercase; */
+    /* text-transform: capitalize; */
+    /* text-transform: lowercase; */
+    /* text-transform: none; */
+
+}
+
+.text1 {
+    text-align: justify;
+    /* background-color: teal; */
+    font-family: serif;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    color: chocolate;
+    line-height: 30px;
+    border-top-style: dotted;
+    border-right-style: solid;
+    border-bottom-style: dotted;
+    border-left-style: solid;
+    border-width: 5px;
+    text-align: left;
+
+}

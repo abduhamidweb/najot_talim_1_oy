@@ -1,0 +1,58 @@
+h1 {
+    text-align: center;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+form {
+    padding: 50px;
+    /* background: rgb(183, 175, 175); */
+    border: 1px solid black;
+    width: 40%;
+    margin: auto;
+}
+
+.with {
+    width: 81%;
+}
+
+.twoo {
+    width: 35%;
+}
+
+input {
+    border: 1px solid rgb(221, 216, 216);
+    padding: 10px 20px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    margin: 10px 10px;
+
+}
+
+label {
+    color: rgb(71, 68, 68);
+}
+
+label span {
+    margin-left: 15px;
+    font-weight: 700;
+}
+
+.button {
+    margin-left: 10px;
+    width: 88%;
+    padding: 15px;
+    background: #37489A;
+    color: white;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}

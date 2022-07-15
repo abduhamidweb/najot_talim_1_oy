@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,0,0.5889706224286589) 0%, rgba(5,0,24,1) 1%, rgba(4,53,50,1) 9%, rgba(26,79,4,1) 18%, rgba(2,64,184,1) 51%, rgba(0,212,255,1) 73%, rgba(0,27,32,1) 90%, rgba(0,255,166,1) 94%, rgba(0,30,36,1) 100%);    
+}
+h1 {
+    color: red;
+    background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+
+h1::after {
+    content: "";
+    display: block;
+    width: 0px;
+    height: 90px;
+    background: red;
+    transition: all 5s ease;
+    -webkit-transition: all 5s ease;
+    -moz-transition: all 5s ease;
+    -ms-transition: all 5s ease;
+    -o-transition: all 5s ease;
+}
+
+h1::before {
+    content: "";
+    display: block;
+    width: 0px;
+    height: 90px;
+    transition: all 5s ease;
+    -webkit-transition: all 5s ease;
+    -moz-transition: all 5s ease;
+    -ms-transition: all 5s ease;
+    -o-transition: all 5s ease;
+    background: red;
+}
+
+h1:hover::after {
+    content: "";
+    display: block;
+    width: 100%;
+
+    height: 90px;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 9%, rgba(131,58,180,1) 10%, rgba(131,58,180,1) 10%, rgba(131,58,180,1) 15%, rgba(58,161,180,1) 15%, rgba(131,58,180,1) 19%, rgba(131,58,180,1) 20%, rgba(131,58,180,1) 23%, rgba(131,58,180,1) 24%, rgba(131,58,180,1) 28%, rgba(70,69,188,1) 31%, rgba(131,58,180,1) 34%, rgba(131,58,180,1) 35%, rgba(131,58,180,1) 36%, rgba(131,58,180,1) 37%, rgba(131,58,180,1) 37%, rgba(188,79,195,1) 43%, rgba(198,83,197,1) 44%, rgba(217,90,202,1) 46%, rgba(96,232,123,0.6505952722886029) 48%, rgba(255,104,211,1) 51%, rgba(255,106,208,1) 51%, rgba(255,110,200,1) 54%, rgba(255,114,191,1) 57%, rgba(255,114,191,1) 57%, rgba(255,117,117,1) 59%, rgba(254,124,171,1) 64%, rgba(254,129,163,1) 67%, rgba(254,130,160,1) 68%, rgba(254,133,154,1) 70%, rgba(253,139,143,1) 74%, rgba(253,143,134,1) 78%, rgba(124,253,169,1) 81%, rgba(253,152,117,1) 83%, rgba(253,160,100,1) 89%, rgba(252,169,83,1) 95%, rgba(252,169,83,1) 95%, rgba(252,176,69,1) 100%);
+
+}
+
+h1:hover::before {
+    content: "";
+    display: block;
+    width: 100%;
+
+    height: 90px;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 9%, rgba(131,58,180,1) 10%, rgba(131,58,180,1) 10%, rgba(131,58,180,1) 15%, rgba(58,161,180,1) 15%, rgba(131,58,180,1) 19%, rgba(131,58,180,1) 20%, rgba(131,58,180,1) 23%, rgba(131,58,180,1) 24%, rgba(131,58,180,1) 28%, rgba(70,69,188,1) 31%, rgba(131,58,180,1) 34%, rgba(131,58,180,1) 35%, rgba(131,58,180,1) 36%, rgba(131,58,180,1) 37%, rgba(131,58,180,1) 37%, rgba(188,79,195,1) 43%, rgba(198,83,197,1) 44%, rgba(217,90,202,1) 46%, rgba(96,232,123,0.6505952722886029) 48%, rgba(255,104,211,1) 51%, rgba(255,106,208,1) 51%, rgba(255,110,200,1) 54%, rgba(255,114,191,1) 57%, rgba(255,114,191,1) 57%, rgba(255,117,117,1) 59%, rgba(254,124,171,1) 64%, rgba(254,129,163,1) 67%, rgba(254,130,160,1) 68%, rgba(254,133,154,1) 70%, rgba(253,139,143,1) 74%, rgba(253,143,134,1) 78%, rgba(124,253,169,1) 81%, rgba(253,152,117,1) 83%, rgba(253,160,100,1) 89%, rgba(252,169,83,1) 95%, rgba(252,169,83,1) 95%, rgba(252,176,69,1) 100%);
+
+}
